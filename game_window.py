@@ -10,5 +10,6 @@ while True:
 	event = pygame.event.poll()
 	if event.type == pygame.QUIT:
 		sys.exit()
-		
+	screen.fill((255,255,255))
+	pygame.display.flip()
 	
